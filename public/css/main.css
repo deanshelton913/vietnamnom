@@ -7,6 +7,19 @@ select,
 textarea {
     color: #222;
 }
+.line:nth-child(2n+1){
+    color:#666;   
+}
+.line:nth-child(2n){
+    color:#000;   
+}
+
+.line:nth-child(2n+1):before{
+    content:"Customer:";
+}
+.line:nth-child(2n):before{
+    content:"Clerk:";
+}
 
 html {
     font-size: 1em;
