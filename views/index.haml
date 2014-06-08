@@ -26,9 +26,41 @@
     .main-container
       .main.wrapper.clearfix
         %article
-          %header
-            %h1
-            I totally own this domain, right now. I am literally can't evening.
+          %header 
+            %h1 VietnamNomnomnomnom
+            %h4 Reasons to buy me some noodles:
+
+            %ol
+              %li this website is bitchin and totally took me 39min to put together. 
+              %li i am hungry.
+              %li you were just gonna lose those coins in the theatre anyway.
+
+            %p if you do find it in your heart to toss me magic dubloons with which to purchase the one true noodle (pho') i will reward you with jokes and stories. This is my parlor trick. No stripping, no dancing. Just plain ol' stories. So chip in, and i will spin you a good yarn over a bowl of soup.
+
+            Thanks!
+
+            %p - Dean
+
+        %aside
+          %h2 Help buy me some noodles:
+          %form{action: "https://www.paypal.com/cgi-bin/webscr", method: "post", target: "_top"}
+            %input{name: "cmd", type: "hidden", value: "_s-xclick"}/
+            %input{name: "hosted_button_id", type: "hidden", value: "DYG458QB7MPLL"}/
+            %table
+              %tr
+                %td
+                  %input{name: "on0", type: "hidden", value: "Buy me some noodles!"}>/
+              %tr
+                %td
+                  %select{name: "os0"}
+                    %option{value: "50 Phoking cents"} 50 Phokin' cents $0.50 USD
+                    %option{value: "One Phokn' DOLLA"} One Phokn' DOLLA $1.00 USD
+                    %option{value: "3 bux"} $3.00 USD
+                    %option{value: "10 smackaroos"} 10 smackaroos $10.00 USD
+                    %option{value: "an entire vietnamese resteraunt"} an entire restaurant $100,000.00 USD
+            %input{name: "currency_code", type: "hidden", value: "USD"}/
+            %input{alt: "PayPal - The safer, easier way to pay online!", border: "0", name: "submit", src: "https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif", type: "image"}/
+            %img{alt: "", border: "0", height: "1", src: "https://www.paypalobjects.com/en_US/i/scr/pixel.gif", width: "1"}/
       / #main
     / #main-container
     %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"}
