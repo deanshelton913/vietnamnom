@@ -2,7 +2,7 @@ require 'sinatra'
 
 get '/' do
   catch_phrase = [
-  	"Why for - how some it be... That da noodle be hard when dey be no bone in it?",
+  	"Why for - how come it be... That da noodle be hard when dey be no bone in it?",
   	"100 years Vietnamnom. 100 years, Morty. www.vietnamnom.com. 100 years vietnamnom.comcom",
   	"Everybody's workin for the noodle.",
   	"Oh you into noodles? Well I'm a mushroom cloud layin motherfucker, motherfucker.",
