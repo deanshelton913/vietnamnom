@@ -19,7 +19,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     .header-container
       %header.wrapper.clearfix
-        %h1.title VietnamNom.com
+        %h1.title Vietnamnom.com
         %nav
           %ul
             %li
@@ -27,113 +27,11 @@
       .main.wrapper.clearfix
         %article
           %header 
-            %h1 VietnamNomnomnomnom
-            %h4 Reasons to buy me some noodles:
+            %h4= catch_phrase
+          Collect them all!
 
-            %ol
-              %li you were just gonna lose those coins in the laundry anyway.
-              %li i am hungry.
-              %li this website is bitchin and totally took me 39min to put together. 
-
-            %p if you do find it in your heart to toss me magic dubloons with which to purchase the one true noodle (pho') i will reward you with jokes and stories. This is my parlor trick. No stripping, no dancing. Just plain ol' stories. So chip in, and i will spin you a good yarn over a bowl of soup.
-
-            Thanks!
-
-            %p - Dean
-
-        %aside
-          %h2 Help buy me some noodles:
-          %form{action: "https://www.paypal.com/cgi-bin/webscr", method: "post", target: "_top"}
-            %input{name: "cmd", type: "hidden", value: "_s-xclick"}/
-            %input{name: "hosted_button_id", type: "hidden", value: "DYG458QB7MPLL"}/
-            %table
-              %tr
-                %td
-                  %input{name: "on0", type: "hidden", value: "Buy me some noodles!"}>/
-              %tr
-                %td
-                  %select{name: "os0"}
-                    %option{value: "50 Phoking cents"} 50 Phokin' cents $0.50 USD
-                    %option{value: "One Phokn' DOLLA"} One Phokn' DOLLA $1.00 USD
-                    %option{value: "3 bux"} $3.00 USD
-                    %option{value: "10 smackaroos"} 10 smackaroos $10.00 USD
-                    %option{value: "an entire vietnamese resteraunt"} an entire restaurant $100,000.00 USD
-            %input{name: "currency_code", type: "hidden", value: "USD"}/
-            %input{alt: "PayPal - The safer, easier way to pay online!", border: "0", name: "submit", src: "https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif", type: "image"}/
-            %img{alt: "", border: "0", height: "1", src: "https://www.paypalobjects.com/en_US/i/scr/pixel.gif", width: "1"}/
-
-        %article
-          %header
-            %h2 Story for the man who gave me $3.00
-            %p
-              %h3 The gods sketch [OC]
-              An average man enters a rare item shop. The eclectic clerk dashes out to meet him.
-              .line
-                Well hello there!
-              .line
-                How do you do, sir. Fine shop.
-              .line
-                Thank you. Can I help you find anything in particular?
-              .line
-                Well say, these are pretty odd little things here. What do you call these, then?
-              .line
-                Oh those! Those are Gods sir.
-              .line
-                They’re what?
-              .line
-                Gods, sir. Splendid little things. Sell them by the truckload.
-              .line
-                Well, what do they do?
-              .line
-                Oh, many things! Just wonderful these little things are… They can do wonders for your daily life. If you like, you can blame things on them. They can also help your spirits when you're down and out. Wonderful little things
-              .line
-                Well that sounds just wonderful. How much?
-              .line
-                For the God? 
-              .line
-                Yes.
-              .line
-                Well… Free I suppose.
-              .line
-                Free?! No wonder you they’re selling so well. I could turn ‘round and sell them for twice that. I’ll take the lot of em.
-              .line
-                I’m sorry, which one, sir?
-              .line
-                The lot. All of them. 
-              .line
-                Oh no, you can only have one at a time, sir. They clash.
-              .line
-                Well that’s a rather stark judgement, I say they go well together.
-              .line
-                Oh nononono. Can’t happen. Not in a million years. Impossible. No, you get one of these one here or the groups of either Greek or Egyption.
-              .line
-                Fine, I’ll take this one.
-              .line
-                Oh lovely choice sir. Fantastic God, this one. 
-              .line
-                So this is completely free? 
-              .line
-                Right! Yes. Totally free, save for the soul, its Scott free.
-              .line
-                The what? 
-              .line
-                The soul. The essence of you. Your concept of self, the part of you that is truly you… It gets that.
-              .line
-                My stars, man! That sounds awful! 
-              .line
-                Oh, no! Quite the contrary! When you die (and we are talking a long way off, here. Decades. Minimum.) This little bugger takes your soul and teleports it off to one of it’s fabulous after-death destinations.
-              .line
-                After death?!
-              .line
-                Yes, sir. Straight away.
-              .line
-                Well how can you be sure of it? If it’s after death when it takes you, then I’d wager no one ever lives to tell about it.
-              .line
-                I’m starting to think that God’s may not be for you, sir.
-              .line
-                Well wait, what kind of destination does it take you to?
-              .line
-                Well… do you masturbate?
+          %h3 
+            Refreshulate this pagification.
       / #main
     / #main-container
     %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"}
